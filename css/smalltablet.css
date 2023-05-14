@@ -1,0 +1,52 @@
+@media (max-width: 744px) {
+    h3 {
+        width: 90%;
+        font-size: 40px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .section1 {
+        width: 100%;
+        font-size: 14px;
+        flex-direction: column;
+
+    }
+
+    .actiion {
+        flex-direction: column;
+    }
+
+    .imgdiv {
+        width: 90%;
+    }
+
+    .section2 {
+        flex-direction: column;
+        height: 600px;
+    }
+
+
+    .divvvs {
+        align-items: center;
+        width: 89%;
+    }
+
+
+
+
+    .section3 {
+        flex-direction: column;
+        height: 900px;
+        align-items: center;
+    }
+
+    .divp {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+ 
+}
