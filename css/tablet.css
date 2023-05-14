@@ -1,6 +1,52 @@
-@media (max-width: 1024px) {
-    section {
-        align-items: column;
+@media (max-width: 1024px){
+    .sectt {
+        flex-direction: column;
+        height: 1000px;
+    }
+    h3 {
+        align-items: center;
+        width: 80%;
+    }
+    .section1 {
+        width: 87%;
+        height: 50%;
+        align-items: center;
+    }
+    .text {
+        align-items: center;
+        width: 65%;
+    }
+    .imgdiv {
+        width: 100%;
+       margin-top: 50px;
+    }
+    .section3 {
+        flex-direction: column;
+        width: 100%;
+        height: 1200px;
+        
+    }
+    .section3>img {
+        width: 96%;
+    }
+    .divp {
+        flex-direction: row;
+        width: 100%;
+        height: 100px;
+    }
+    divp>p {
+        flex-direction: column;
+        gap: 10px;
     }
 
+    .sect4 {
+        width: 100%;
+    }
+
+.last {
+    display: none;
 }
+} 
+
+    
+
